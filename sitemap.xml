@@ -3,84 +3,84 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://cyphercore.io/author/john-doe/</loc>
+    <loc>/author/john-doe/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cyphercore.io/blog/are-you-doing-the-right-way/</loc>
+    <loc>/blog/are-you-doing-the-right-way/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cyphercore.io/author/</loc>
+    <loc>/author/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cyphercore.io/blog/</loc>
+    <loc>/blog/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cyphercore.io/</loc>
+    <loc>/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cyphercore.io/author/somrat/</loc>
+    <loc>/author/somrat/</loc>
     <lastmod>2018-09-12T14:39:16+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cyphercore.io/blog/simple-post-title/</loc>
+    <loc>/blog/simple-post-title/</loc>
     <lastmod>2018-09-12T14:39:16+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cyphercore.io/author/jamica-jock/</loc>
+    <loc>/author/jamica-jock/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cyphercore.io/blog/simple-image-post/</loc>
+    <loc>/blog/simple-image-post/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cyphercore.io/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>https://cyphercore.io/tags/golang/</loc>
+    <loc>/tags/golang/</loc>
   </url>
   
   <url>
-    <loc>https://cyphercore.io/blog/installation/</loc>
+    <loc>/blog/installation/</loc>
   </url>
   
   <url>
-    <loc>https://cyphercore.io/tags/hugo/</loc>
+    <loc>/tags/hugo/</loc>
   </url>
   
   <url>
-    <loc>https://cyphercore.io/tags/programming/</loc>
+    <loc>/tags/programming/</loc>
   </url>
   
   <url>
-    <loc>https://cyphercore.io/categories/starting/</loc>
+    <loc>/categories/starting/</loc>
   </url>
   
   <url>
-    <loc>https://cyphercore.io/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
   <url>
-    <loc>https://cyphercore.io/tags/theme/</loc>
+    <loc>/tags/theme/</loc>
   </url>
   
   <url>
-    <loc>https://cyphercore.io/author/themefisher/</loc>
+    <loc>/author/themefisher/</loc>
   </url>
   
 </urlset>
