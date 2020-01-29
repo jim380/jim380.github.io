@@ -1,728 +1,864 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en-us" scroll-behavior="smooth"><head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="description" content="Staking Service">
-    <meta name="author" content="Cypher Core">
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Cypher Core</title>
 
-    <!-- Mobile Specific Meta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.58.3" />
+	<!-- mobile responsive meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description"
+		content="Staking Service">
+	
+	<meta name="author" content="Cypher Core">
+	<meta name="generator" content="Hugo 0.58.3" />
 
-    <title>Cypher Core | Staking Service</title>
+	<!-- plugins -->
+	
+	<link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css ">
+	
+	<link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css ">
+	
+	<link rel="stylesheet" href="/plugins/animate-css/animate.css ">
+	
+	<link rel="stylesheet" href="/plugins/magnific-popup/magnific-popup.css ">
+	
+	<link rel="stylesheet" href="/plugins/slick/slick.css ">
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anaheim%7cQuattrocento&#43;Sans:400,700&amp;display=swap ">
+	
 
+	<!-- Main Stylesheet -->
+	
+	<link rel="stylesheet" href="/css/style.min.css" media="screen">
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"/>
-
-    <!-- CSS -->
-    <!-- Fontawesome Icon font -->
-    <link rel="stylesheet" href="/plugins/themefisher-font/style.css">
-    <!-- bootstrap.min css -->
-    <link rel="stylesheet" href="/plugins/bootstrap/dist/css/bootstrap.min.css">
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="/plugins/animate-css/animate.css">
-    <!-- Magnific popup css -->
-    <link rel="stylesheet" href="/plugins/magnific-popup/dist/magnific-popup.css">
-    <!-- Slick Carousel -->
-    <link rel="stylesheet" href="/plugins/slick-carousel/slick/slick.css">
-    <link rel="stylesheet" href="/plugins/slick-carousel/slick/slick-theme.css">
-    <!-- Main Stylesheet -->
-    
-    <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
-    <!-- Custom CSS -->
-    
-    <link rel="stylesheet" href="/css/custom.css">
-    
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/images/favicon.png " type="image/x-icon">
+	<link rel="icon" href="/images/favicon.png " type="image/x-icon">
 
 </head>
-<body id="body" data-spy="scroll" data-target=".navbar" data-offset="52">
-        <div id="content">
 
-    <!-- Start Preloader -->
-<div id="preloader">
-    <div class="preloader">
-        <div class="sk-cube-grid">
-            <div class="sk-cube sk-cube1"></div>
-            <div class="sk-cube sk-cube2"></div>
-            <div class="sk-cube sk-cube3"></div>
-            <div class="sk-cube sk-cube4"></div>
-            <div class="sk-cube sk-cube5"></div>
-            <div class="sk-cube sk-cube6"></div>
-            <div class="sk-cube sk-cube7"></div>
-            <div class="sk-cube sk-cube8"></div>
-            <div class="sk-cube sk-cube9"></div>
-        </div>
-    </div>
-</div>
-<!-- End Preloader -->
-
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="55">
+  <div id="content">
     
+<!-- preloader start -->
+<div class="preloader">
+  
+  <img src="/images/logo_cc.png" alt="preloader">
+  
+</div>
+<!-- preloader end -->
+
+
+
+
+
+
 <!-- Welcome Slider-->
-<section class="hero-area" style='background-image: url("/images/slider/bg.jpg");'>
-    <div class="block">
-        
-        <div class="video-button">
-            <i class="tf-ion-play"></i>
-        </div>
-        
-        <h1>Cypher Core</h1>
-        <p>DeFi for everyone</p> 
-       
-        <a data-scroll href="#services" class="btn btn-transparent">Explore Us</a>
-        
-    </div>
+<section class="hero-area" style='background-image: url("/images/backgrounds/blur.jpg")'>
+	
+	<img style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url(\/images\/backgrounds\/blur.jpg)'" src="/images/backgrounds/blur.jpg" />
+
+	<div class="block">
+		
+		<h1>Cypher Core</h1>
+		<p>DeFi for everyone</p>
+		
+		
+		<a href="#services" class="btn btn-transparent page-scroll">Explore Us</a>
+		
+		
+	</div>
 </section>
 <!-- /Welcome Slider-->
 
 
 
-    <!-- Fixed Navigation -->
+<!-- Fixed Navigation -->
 <nav id="navigation" class="navbar navbar-expand-lg navigation sticky-top">
-        <div class="container">
+	<div class="container">
 
-                <!-- logo -->
-                <a class="navbar-brand logo" href="/">
-                        <img src="/images/logo_cc.png" alt="Logo" />
-                        <span class="pl-2 font-weight-bold">Cypher Core</span>
-                </a>
-                <!-- /logo -->
+		<!-- logo -->
+		<a class="navbar-brand logo" href="/">
+			
+			<img class="img-fluid" src="/images/logo_cc.png" alt="Cypher Core">
+			
+		</a>
+		<!-- /logo -->
 
-                <!-- responsive nav button -->
-                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- /responsive nav button -->
+		<!-- responsive nav button -->
+		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+			data-target="#navigation" aria-controls="navigation" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<!-- /responsive nav button -->
 
-                <!-- main nav -->
-                
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto navigation-menu">
-                                <li class="nav-item"><a class="nav-link" data-scroll href="#body">Home</a></li>
-                                
-                                <li class="nav-item"><a class="nav-link" data-scroll href="#about">About</a></li>
-                                
-                                <li class="nav-item"><a class="nav-link" data-scroll href="#services">Staking</a></li>
-                                
-                                <li class="nav-item"><a class="nav-link" data-scroll href="#portfolio">Works</a></li>
-                                
-                                <li class="nav-item"><a class="nav-link" data-scroll href="#our-team">Team</a></li>
-                                
-                                <li class="nav-item"><a class="nav-link" data-scroll href="#contact-us">Contact</a></li>
-                                
-                        </ul>
-                </div>
-                
-                <!-- /main nav -->
-        </div>
+		<!-- main nav -->
+		
+		<div class="collapse navbar-collapse" id="navigation">
+			<ul class="navbar-nav ml-auto navigation-menu">
+				<li class="nav-item"><a class="nav-link" href="#body">Home</a></li>
+				
+				<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+				
+				<li class="nav-item"><a class="nav-link" href="#services">Staking</a></li>
+				
+				<li class="nav-item"><a class="nav-link" href="#portfolio">Works</a></li>
+				
+				<li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+				
+				<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+				
+			</ul>
+		</div>
+		
+		<!-- /main nav -->
 
+		
+    
+    <select id="select-language" onchange="location = this.value;">
+      
+      
+      
+      
+      
+      
+      
+      
+      <option id="en" value="/" selected>En
+      </option>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <option id="fr" value="/fr/">Fr</option>
+      
+      
+      
+      
+    </select>
+    
+	</div>
 </nav>
 <!-- End Fixed Navigation -->
 
 
-    
+
+
+
 <!-- Start About Section -->
 <section class="bg-one about section" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <!-- section title -->
-                <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
-                    <h2>About <span class="color">Us</span> </h2>
-                    <div class="border-meghna"></div>
-                </div>
-            </div>
-            <!-- /section title -->
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-12">
+				<!-- section title -->
+				<div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+					<h2>  About <span class="color">
+							 Us  </span></h2>
+					<div class="border-meghna"></div>
+				</div>
+			</div>
+			<!-- /section title -->
 
-            
-            <!-- About item -->
-            <div class="col-lg-4 text-center wow fadeInUp" data-wow-duration="500ms">
-                <div class="block">
-                    <div class="icon-box">
-                        <i class="tf-tools"></i>
-                    </div>
-                    <!-- Express About Yourself -->
-                    <div class="content text-center">
-                        <h3 class="ddd">Staking as a Service</h3>
-                          <p>With a highly secure and reliable staking infrastructure, we operate validator nodes on multiple Proof of Stake based protocols. By delegating stakes to our nodes, investors earn rewards while helping secure the network.</p>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- About item -->
-            <div class="col-lg-4 text-center wow fadeInUp" data-wow-duration="500ms">
-                <div class="block">
-                    <div class="icon-box">
-                        <i class="tf-strategy"></i>
-                    </div>
-                    <!-- Express About Yourself -->
-                    <div class="content text-center">
-                        <h3 class="ddd">Event Hosting</h3>
-                          <p>With the goal of encouraging blockchain awareness within the general public, we host educational events to help a wide range of investors and enthusiasts alike understand the fundamentals of blockchain technology.</p>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- About item -->
-            <div class="col-lg-4 text-center wow fadeInUp" data-wow-duration="500ms">
-                <div class="block">
-                    <div class="icon-box">
-                        <i class="tf-anchor2"></i>
-                    </div>
-                    <!-- Express About Yourself -->
-                    <div class="content text-center">
-                        <h3 class="ddd">Consulting</h3>
-                          <p>By pairing industry professionals with highly skilled financial analysts and Blockchain architects , we provide in-depth analysis on a wide range of blockchain projects along with quality insights on their market potential.</p>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </div>
+			
+			<!-- About item -->
+			<div class="col-lg-4 text-center wow fadeInUp" data-wow-duration="500ms">
+				<div class="block">
+					<div class="icon-box">
+						<i class="ti-ruler-pencil"></i>
+					</div>
+					<!-- Express About Yourself -->
+					<div class="content text-center">
+						<h3>Staking as a Service</h3>
+						<p>With a highly secure and reliable staking infrastructure, we operate validator nodes on multiple Proof of Stake based protocols. By delegating stakes to our nodes, investors earn rewards while helping secure the network.</p>
+					</div>
+				</div>
+			</div>
+			
+			<!-- About item -->
+			<div class="col-lg-4 text-center wow fadeInUp" data-wow-duration="500ms">
+				<div class="block">
+					<div class="icon-box">
+						<i class="ti-cup"></i>
+					</div>
+					<!-- Express About Yourself -->
+					<div class="content text-center">
+						<h3>Event Hosting</h3>
+						<p>With the goal of encouraging blockchain awareness within the general public, we host educational events to help a wide range of investors and enthusiasts alike understand the fundamentals of blockchain technology.</p>
+					</div>
+				</div>
+			</div>
+			
+			<!-- About item -->
+			<div class="col-lg-4 text-center wow fadeInUp" data-wow-duration="500ms">
+				<div class="block">
+					<div class="icon-box">
+						<i class="ti-thought"></i>
+					</div>
+					<!-- Express About Yourself -->
+					<div class="content text-center">
+						<h3>Consulting</h3>
+						<p>By pairing industry professionals with highly skilled financial analysts and Blockchain architects , we provide in-depth analysis on a wide range of blockchain projects along with quality insights on their market potential.</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
 </section>
 <!-- /about -->
 
 
 
-<!-- about 2 -->
-<section class="section section-bg about-2 padding-0" id="about">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-6 padding-0 ">
-                <img class="img-fluid" src="/images/about/pokeball.png" alt="image">
-            </div>
-            <div class="col-lg-6">
-                <div class="content-block">
-                     <h2>Who we are</h2> 
-                    
-                     <p>We are blockchain enthusiasts who believe that blockchain technology, as a disruptive innovation, is poised to revolutionize the commerce world across every industry. Moreover, we are a collective of professionals with a shared passion to expose and deliver infallible opportunities for investors and consumers alike.</p> 
-                    <div class="row">
-                        
-                        <div class="col-lg-6">
-                            <div class="media">
-                                <div class="align-self-start mr-3">
-                                     <i class="tf-circle-compass"></i> 
-                                </div>
-                                <div class="media-body">
-                                     <h4 class="media-heading">Problem</h4>
-                                     <p>Many businesses today struggle to connect with the intended customers and are facing serious barriers to consumer adoption. They turn to blockchain for a solution but often end up being misguided.</p> 
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-6">
-                            <div class="media">
-                                <div class="align-self-start mr-3">
-                                     <i class="tf-hotairballoon"></i> 
-                                </div>
-                                <div class="media-body">
-                                     <h4 class="media-heading">Vision</h4>
-                                     <p>Cypher Core strives to become the medium where not only can the projects reach a wider client base, businesses can also find the right solutions by learning the fundamentals of blockchain technology.</p> 
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
+
+
+
+<!-- feature -->
+<section class="section section-bg about-2 padding-0" id="feature">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-6 padding-0" style="background-image: url('/images/about/pokeball.png'); background-size: cover; background-position: top center; background-repeat: no-repeat; min-height: 400px;">
+			
+			<img style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url(\/images\/about\/pokeball.png)'" src="/images/about/pokeball.png" />
+			</div>
+			<div class="col-lg-6">
+				<div class="content-block">
+					<h2>Who We Are</h2>
+					<p>We are blockchain enthusiasts who believe that blockchain technology, as a disruptive innovation, is poised to revolutionize the commerce world across every industry. Moreover, we are a collective of professionals with a shared passion to expose and deliver infallible opportunities for investors and consumers alike.</p>
+					<div class="row">
+						
+						<div class="col-lg-6">
+							<div class="media">
+								
+								<div class="align-self-start mr-3">
+									<i class="ti-world"></i>
+								</div>
+								
+								<div class="media-body">
+									<h4 class="media-heading">Problem</h4>
+									<p>Many businesses today struggle to connect with the intended customers and are facing serious barriers to consumer adoption. They turn to blockchain for a solution but often end up being misguided.</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-lg-6">
+							<div class="media">
+								
+								<div class="align-self-start mr-3">
+									<i class="ti-panel"></i>
+								</div>
+								
+								<div class="media-body">
+									<h4 class="media-heading">Vision</h4>
+									<p>Cypher Core strives to become the medium where not only can the projects reach a wider client base, businesses can also find the right solutions by learning the fundamentals of blockchain technology.</p>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
-<!-- /about 2 -->
+<!-- /feature -->
 
 
 
-    
+
+
+
+
 <!-- Start Call To Action -->
-<section class="call-to-action section-sm bg-1 overly" style='background-image: url("/images/backgrounds/bg-1.jpg")'>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>Find Your Tribe</h2> 
-                <p>Come hang and connect with like minded souls.</p> 
-                <a href="https://t.me/joinchat/FF8nlFiZdotnygtg-zDFHw" class="btn btn-main"> Join Our Community </a>
-            </div>
-        </div>
-    </div>
+<section class="call-to-action section-sm bg-1 overly" style='background-image: url("/images/backgrounds/blur2.jpg")'>
+	
+	<img style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url(\/images\/backgrounds\/blur2.jpg)'" src="/images/backgrounds/blur2.jpg" />
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2>Find Your Tribe</h2>
+				<p>Come hang and connect with like minded souls</p>
+				
+				
+				<a href="https://t.me/joinchat/FF8nlFiZdotnygtg-zDFHw" class="btn btn-main page-scroll">Join Our Community</a>
+				
+				
+			</div>
+		</div>
+	</div>
 </section>
 <!-- Start Services Section -->
 
 
-    
+
+
+
+
+
 <!-- service -->
 <section id="services" class="bg-one section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <!-- section title -->
-                <div class="title text-center wow fadeIn" data-wow-duration="500ms">
-                    <h2> Staking <span class="color"> Service </span></h2>
-                    <div class="border-meghna"></div>
-                </div>
-            </div>
-            <!-- /section title -->
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-12">
+				<!-- section title -->
+				<div class="title text-center wow fadeIn" data-wow-duration="500ms">
+					<h2> Staking <span class="color">
+							 Service  </span></h2>
+					<div class="border-meghna"></div>
+				</div>
+			</div>
+			<!-- /section title -->
 
-            
-            <!-- Single Service Item -->
-            <article class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
-                <div class="service-block text-center">
-                    <div class="service-icon text-center">
-                        <i class="tf-globe"></i>
-                    </div>
-                    <h3>Consistency</h3>
-                    <p>In a distributed Proof-of-Stake system where network partitions are inevitable, we prioritize consistency over availability due to the harsher penalty for inconsistency than unavailability.</p>
-                </div>
-            </article>
-            <!-- End Single Service Item -->
-            
-            <!-- Single Service Item -->
-            <article class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
-                <div class="service-block text-center">
-                    <div class="service-icon text-center">
-                        <i class="tf-ion-laptop"></i>
-                    </div>
-                    <h3>Reliability</h3>
-                    <p>We believe the basis of reliability is simplicity. Complication often ends up being over-promising and under-performing. What&#39;s a good system if you can&#39;t sufficiently maintain it?</p>
-                </div>
-            </article>
-            <!-- End Single Service Item -->
-            
-            <!-- Single Service Item -->
-            <article class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
-                <div class="service-block text-center">
-                    <div class="service-icon text-center">
-                        <i class="tf-genius"></i>
-                    </div>
-                    <h3>Resilience</h3>
-                    <p>Security cannot be guaranteed but resilience can. We fully adapt the &#34;Prevention, Detection and Response&#34; approach standardized in the Information Security industry to mitigate risks.</p>
-                </div>
-            </article>
-            <!-- End Single Service Item -->
-            
-            <!-- Single Service Item -->
-            <article class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
-                <div class="service-block text-center">
-                    <div class="service-icon text-center">
-                        <i class="tf-dial"></i>
-                    </div>
-                    <h3>Key Management</h3>
-                    <p>We store our private keys on a HSM to prevent the keys being left exposed on the validator host. Our HSM has full Ed25519 signature support, and is used in signing votes and submitting block proposals.</p>
-                </div>
-            </article>
-            <!-- End Single Service Item -->
-            
-            <!-- Single Service Item -->
-            <article class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
-                <div class="service-block text-center">
-                    <div class="service-icon text-center">
-                        <i class="tf-target3"></i>
-                    </div>
-                    <h3>DDoS Protection</h3>
-                    <p>Geographically distributed sentry nodes are utilized to shift the burden of DDoS from the validator node(s), and can be quickly spun up or configured to mitigate the impact of existing attacks.</p>
-                </div>
-            </article>
-            <!-- End Single Service Item -->
-            
-            <!-- Single Service Item -->
-            <article class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
-                <div class="service-block text-center">
-                    <div class="service-icon text-center">
-                        <i class="tf-lifesaver"></i>
-                    </div>
-                    <h3>Monitoring</h3>
-                    <p>We collect a wide range of metrics including metrics exposed by the consensus protocol. Our ultimate goal is to develop one integrated tooling that combines metrics , monitoring and alerting.</p>
-                </div>
-            </article>
-            <!-- End Single Service Item -->
-            
-        </div>
-    </div>
+			
+			<!-- Single Service Item -->
+			<article class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
+				<div class="service-block text-center">
+					<div class="service-icon text-center">
+						<i class="ti-world"></i>
+					</div>
+					<h3>Consistency</h3>
+					<p>In a distributed Proof-of-Stake system where network partitions are inevitable, we prioritize consistency over availability due to the harsher penalty for inconsistency than unavailability.</p>
+				</div>
+			</article>
+			<!-- End Single Service Item -->
+			
+			<!-- Single Service Item -->
+			<article class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
+				<div class="service-block text-center">
+					<div class="service-icon text-center">
+						<i class="ti-layout"></i>
+					</div>
+					<h3>Reliability</h3>
+					<p>We believe the basis of reliability is simplicity. Complication often ends up being over-promising and under-performing. What&rsquo;s a good system if you can&rsquo;t sufficiently maintain it?</p>
+				</div>
+			</article>
+			<!-- End Single Service Item -->
+			
+			<!-- Single Service Item -->
+			<article class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
+				<div class="service-block text-center">
+					<div class="service-icon text-center">
+						<i class="ti-blackboard"></i>
+					</div>
+					<h3>Resilience</h3>
+					<p>Security cannot be guaranteed but resilience can. We fully adapt the &ldquo;Prevention, Detection and Response&rdquo; approach standardized in the Information Security industry to mitigate risks.</p>
+				</div>
+			</article>
+			<!-- End Single Service Item -->
+			
+			<!-- Single Service Item -->
+			<article class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
+				<div class="service-block text-center">
+					<div class="service-icon text-center">
+						<i class="ti-palette"></i>
+					</div>
+					<h3>Key Management</h3>
+					<p>We store our private keys on a HSM to prevent the keys being left exposed on the validator host. Our HSM has full Ed25519 signature support, and is used in signing votes and submitting block proposals.</p>
+				</div>
+			</article>
+			<!-- End Single Service Item -->
+			
+			<!-- Single Service Item -->
+			<article class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
+				<div class="service-block text-center">
+					<div class="service-icon text-center">
+						<i class="ti-package"></i>
+					</div>
+					<h3>DDoS Protection</h3>
+					<p>Geographically distributed sentry nodes are utilized to shift the burden of DDoS from the validator node(s), and can be quickly spun up or configured to mitigate the impact of existing attacks.</p>
+				</div>
+			</article>
+			<!-- End Single Service Item -->
+			
+			<!-- Single Service Item -->
+			<article class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
+				<div class="service-block text-center">
+					<div class="service-icon text-center">
+						<i class="ti-pulse"></i>
+					</div>
+					<h3>Monitoring</h3>
+					<p>We collect a wide range of metrics including metrics exposed by the consensus protocol. Our ultimate goal is to develop one integrated tooling that combines metrics , monitoring and alerting.</p>
+				</div>
+			</article>
+			<!-- End Single Service Item -->
+			
+		</div>
+	</div>
 </section>
 <!-- /service -->
 
 
-    
 
-    
+
+
+
+
+
+
+
+
 <!-- Portfolio Section -->
 <section class="portfolio section" id="portfolio">
-    <div class="container">
-        <div class="row ">
-            <div class="col-xl-12">
-                <!-- section title -->
-                <div class="title text-center">
-                    <h2>  Our  <span class="color"> Works </span></h2>
-                    <div class="border-meghna"></div>
-                </div>
-                <!-- /section title -->
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="portfolio-filter">
-                    <button type="button" data-filter="all">All</button>
-                    
-                    <button type="button" data-filter="portfolio">Portfolio</button>
-                    
-                    <button type="button" data-filter="development">Projects</button>
-                    
-                </div>
-            </div>
-        </div>
-        <div class="row filtr-container">
-            <!-- portfolio item -->
-            
-            <div class="col-lg-4 filtr-item" data-category="portfolio">
-                <div class="portfolio-block mb-4">
-                    <img class="img-fluid" src="/images/portfolio/irisnet.png" alt="work-image">
-                    <div class="caption">
-                        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/irisnet.png" data-lightbox="image-1">
-                            <i class="tf-ion-android-search"></i>
-                        </a>
-                        <h4><a href="https://iris.bigdipper.live/validator/iva1kfhee2nqrg64krqa97q3ufw9d0phzp3jjq3c4j">IRISnet</a></h4>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 filtr-item" data-category="portfolio">
-                <div class="portfolio-block mb-4">
-                    <img class="img-fluid" src="/images/portfolio/cosmos.png" alt="work-image">
-                    <div class="caption">
-                        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/cosmos.png" data-lightbox="image-1">
-                            <i class="tf-ion-android-search"></i>
-                        </a>
-                        <h4><a href="https://cosmos.bigdipper.live/validator/cosmosvaloper1pjmngrwcsatsuyy8m3qrunaun67sr9x7z5r2qs">Cosmos</a></h4>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 filtr-item" data-category="portfolio">
-                <div class="portfolio-block mb-4">
-                    <img class="img-fluid" src="/images/portfolio/lino.png" alt="work-image">
-                    <div class="caption">
-                        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/lino.png" data-lightbox="image-1">
-                            <i class="tf-ion-android-search"></i>
-                        </a>
-                        <h4><a href="https://tracker.lino.network/#/account/cyphercore">Lino</a></h4>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 filtr-item" data-category="portfolio">
-                <div class="portfolio-block mb-4">
-                    <img class="img-fluid" src="/images/portfolio/regen.png" alt="work-image">
-                    <div class="caption">
-                        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/regen.png" data-lightbox="image-1">
-                            <i class="tf-ion-android-search"></i>
-                        </a>
-                        <h4><a href="/">Regen Netowrk</a></h4>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 filtr-item" data-category="portfolio">
-                <div class="portfolio-block mb-4">
-                    <img class="img-fluid" src="/images/portfolio/wanchain.png" alt="work-image">
-                    <div class="caption">
-                        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/wanchain.png" data-lightbox="image-1">
-                            <i class="tf-ion-android-search"></i>
-                        </a>
-                        <h4><a href="https://www.wanscan.org/vld/0xd5ac2836fb15d71119af111bb269ffbd3f7928c5">Wanchain</a></h4>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 filtr-item" data-category="portfolio">
-                <div class="portfolio-block mb-4">
-                    <img class="img-fluid" src="/images/portfolio/near.png" alt="work-image">
-                    <div class="caption">
-                        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/near.png" data-lightbox="image-1">
-                            <i class="tf-ion-android-search"></i>
-                        </a>
-                        <h4><a href="/">Near</a></h4>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 filtr-item" data-category="development">
-                <div class="portfolio-block mb-4">
-                    <img class="img-fluid" src="/images/portfolio/coris.png" alt="work-image">
-                    <div class="caption">
-                        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/coris.png" data-lightbox="image-1">
-                            <i class="tf-ion-android-search"></i>
-                        </a>
-                        <h4><a href="https://github.com/jim380/Coris">Coris Explorer</a></h4>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 filtr-item" data-category="development">
-                <div class="portfolio-block mb-4">
-                    <img class="img-fluid" src="/images/portfolio/botiana.png" alt="work-image">
-                    <div class="caption">
-                        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/botiana.png" data-lightbox="image-1">
-                            <i class="tf-ion-android-search"></i>
-                        </a>
-                        <h4><a href="https://github.com/jim380/Botelicious">Botelicious</a></h4>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 filtr-item" data-category="development">
-                <div class="portfolio-block mb-4">
-                    <img class="img-fluid" src="/images/portfolio/faucet.png" alt="work-image">
-                    <div class="caption">
-                        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/faucet.png" data-lightbox="image-1">
-                            <i class="tf-ion-android-search"></i>
-                        </a>
-                        <h4><a href="https://github.com/cyphercore-dev/regen-faucet">Token Faucet</a></h4>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </div>
+	<div class="container">
+		<div class="row ">
+			<div class="col-xl-12">
+				<!-- section title -->
+				<div class="title text-center">
+					<h2> Our <span class="color">
+							 Works </span></h2>
+					<div class="border-meghna"></div>
+				</div>
+				<!-- /section title -->
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="btn-group portfolio-filter btn-group-toggle justify-content-center d-flex flex-wrap"
+					data-toggle="buttons">
+					<label class="btn active">
+						<input type="radio" name="shuffle-filter" value="all" checked="checked" />All
+					</label>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<label class="btn">
+						<input type="radio" name="shuffle-filter" value="portfolio" />Portfolio
+					</label>
+					
+					<label class="btn">
+						<input type="radio" name="shuffle-filter" value="development" />Development
+					</label>
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="row shuffle-wrapper justify-content-center">
+			<!-- portfolio item -->
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;portfolio&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid lozad" data-src="/images/portfolio/irisnet.png" onerror="this.onerror=null;this.src='\/images\/portfolio\/irisnet.png'" alt="IRISnet">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/irisnet.png"
+							data-lightbox="image-1">
+							<i class="ti-search"></i>
+						</a>
+						<h4 class="mt-3"><a href="https://iris.bigdipper.live/validator/iva1kfhee2nqrg64krqa97q3ufw9d0phzp3jjq3c4j">IRISnet</a></h4>
+						<p></p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;portfolio&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid lozad" data-src="/images/portfolio/cosmos.png" onerror="this.onerror=null;this.src='\/images\/portfolio\/cosmos.png'" alt="Cosmos">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/cosmos.png"
+							data-lightbox="image-1">
+							<i class="ti-search"></i>
+						</a>
+						<h4 class="mt-3"><a href="https://cosmos.bigdipper.live/validator/cosmosvaloper1pjmngrwcsatsuyy8m3qrunaun67sr9x7z5r2qs">Cosmos</a></h4>
+						<p></p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;portfolio&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid lozad" data-src="/images/portfolio/wanchain.png" onerror="this.onerror=null;this.src='\/images\/portfolio\/wanchain.png'" alt="Wanchain">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/wanchain.png"
+							data-lightbox="image-1">
+							<i class="ti-search"></i>
+						</a>
+						<h4 class="mt-3"><a href="https://www.wanscan.org/vld/0xd5ac2836fb15d71119af111bb269ffbd3f7928c5">Wanchain</a></h4>
+						<p></p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;portfolio&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid lozad" data-src="/images/portfolio/celo.png" onerror="this.onerror=null;this.src='\/images\/portfolio\/celo.png'" alt="Celo">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/celo.png"
+							data-lightbox="image-1">
+							<i class="ti-search"></i>
+						</a>
+						<h4 class="mt-3"><a href="https://baklava-blockscout.celo-testnet.org/address/0xa87c05c4598fcf6d7bb9f9e41ebaa05c2cb46abd/celo">Celo</a></h4>
+						<p></p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;portfolio&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid lozad" data-src="/images/portfolio/regen.png" onerror="this.onerror=null;this.src='\/images\/portfolio\/regen.png'" alt="Regen Network">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/regen.png"
+							data-lightbox="image-1">
+							<i class="ti-search"></i>
+						</a>
+						<h4 class="mt-3"><a href="#">Regen Network</a></h4>
+						<p></p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;portfolio&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid lozad" data-src="/images/portfolio/oasis.png" onerror="this.onerror=null;this.src='\/images\/portfolio\/oasis.png'" alt="Oasis">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/oasis.png"
+							data-lightbox="image-1">
+							<i class="ti-search"></i>
+						</a>
+						<h4 class="mt-3"><a href="#">Oasis</a></h4>
+						<p></p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;development&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid lozad" data-src="/images/portfolio/coris.png" onerror="this.onerror=null;this.src='\/images\/portfolio\/coris.png'" alt="Coris Explorer">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/coris.png"
+							data-lightbox="image-1">
+							<i class="ti-search"></i>
+						</a>
+						<h4 class="mt-3"><a href="https://github.com/jim380/Coris">Coris Explorer</a></h4>
+						<p></p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;development&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid lozad" data-src="/images/portfolio/botiana.png" onerror="this.onerror=null;this.src='\/images\/portfolio\/botiana.png'" alt="Botelicious">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/botiana.png"
+							data-lightbox="image-1">
+							<i class="ti-search"></i>
+						</a>
+						<h4 class="mt-3"><a href="https://github.com/jim380/Botelicious">Botelicious</a></h4>
+						<p></p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[&quot;development&quot;]">
+				<div class="portfolio-block mb-4">
+					<img class="img-fluid lozad" data-src="/images/portfolio/faucet.png" onerror="this.onerror=null;this.src='\/images\/portfolio\/faucet.png'" alt="Token Faucet">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="/images/portfolio/faucet.png"
+							data-lightbox="image-1">
+							<i class="ti-search"></i>
+						</a>
+						<h4 class="mt-3"><a href="https://github.com/cyphercore-dev/regen-faucet">Token Faucet</a></h4>
+						<p></p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
 </section>
 <!-- /Portfolio -->
 
 
-    
 
-    
+
+
+
+
+
+
+
+
 <!-- Start Our Team -->
-<section id="our-team" class="section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <!-- section title -->
-                <div class="title text-center wow fadeInUp" data-wow-duration="500ms">
-                    <h2> Our  <span class="color"> Team </span></h2>
-                    <div class="border-meghna"></div>
-                </div>
-            </div>
-            <!-- /section title -->
-
-            
-            <!-- team member -->
-            <div class="col-lg-3 col-md-6 col-12 wow fadeInDown" data-wow-duration="500ms">
-                <div class="team-member">
-                    <div class="member-photo">
-                        <!-- member photo -->
-                        <img class="img-fluid" src="/images/team/jay.jpg" alt="Meghna">
-
-                        <!-- member social profile -->
-                        <div class="mask">
-                            <ul class="list-inline">
-                                
-                                <li class="list-inline-item"><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
-                                
-                                <li class="list-inline-item"><a href="#"><i class="tf-ion-social-linkedin"></i></a></li>
-                                
-                                <li class="list-inline-item"><a href="#"><i class="tf-ion-social-github"></i></a></li>
-                                
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- member name & designation -->
-                    <div class="member-meta">
-                        <h4>Jay Jie</h4>
-                        <span>Founder</span>
-                        <p>Jay fell into the blockchain rabbit hole in 2016 and hasn&#39;t been able to get out. He loves his pitbull and enjoys weight training.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- end team member -->
-            
-            <!-- team member -->
-            <div class="col-lg-3 col-md-6 col-12 wow fadeInDown" data-wow-duration="500ms">
-                <div class="team-member">
-                    <div class="member-photo">
-                        <!-- member photo -->
-                        <img class="img-fluid" src="/images/team/ken.jpg" alt="Meghna">
-
-                        <!-- member social profile -->
-                        <div class="mask">
-                            <ul class="list-inline">
-                                
-                                <li class="list-inline-item"><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
-                                
-                                <li class="list-inline-item"><a href="#"><i class="tf-ion-social-linkedin"></i></a></li>
-                                
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- member name & designation -->
-                    <div class="member-meta">
-                        <h4>Ken Trueba</h4>
-                        <span>COO</span>
-                        <p>Coming from sales management and finance Ken fulfills the missing element of the team. He enjoys cooking and hiking with his dogs.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- end team member -->
-            
-            <!-- team member -->
-            <div class="col-lg-3 col-md-6 col-12 wow fadeInDown" data-wow-duration="500ms">
-                <div class="team-member">
-                    <div class="member-photo">
-                        <!-- member photo -->
-                        <img class="img-fluid" src="/images/team/art.jpeg" alt="Meghna">
-
-                        <!-- member social profile -->
-                        <div class="mask">
-                            <ul class="list-inline">
-                                
-                                <li class="list-inline-item"><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
-                                
-                                <li class="list-inline-item"><a href="#"><i class="tf-ion-social-linkedin"></i></a></li>
-                                
-                                <li class="list-inline-item"><a href="#"><i class="tf-ion-social-github"></i></a></li>
-                                
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- member name & designation -->
-                    <div class="member-meta">
-                        <h4>Artem Akatev</h4>
-                        <span>Lead Developer</span>
-                        <p>Artem juggles web development, blockchain, and cryptography. He enjoys working on cars, and playing basketball.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- end team member -->
-            
-            <!-- team member -->
-            <div class="col-lg-3 col-md-6 col-12 wow fadeInDown" data-wow-duration="500ms">
-                <div class="team-member">
-                    <div class="member-photo">
-                        <!-- member photo -->
-                        <img class="img-fluid" src="/images/team/jason.png" alt="Meghna">
-
-                        <!-- member social profile -->
-                        <div class="mask">
-                            <ul class="list-inline">
-                                
-                                <li class="list-inline-item"><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
-                                
-                                <li class="list-inline-item"><a href="#"><i class="tf-ion-social-linkedin"></i></a></li>
-                                
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- member name & designation -->
-                    <div class="member-meta">
-                        <h4>Jason Maehr</h4>
-                        <span>Mr. Adviser</span>
-                        <p>Wharton School of Business graduate, ex-Wall Streeter, Jason looks out for the team with his experience. And kindness.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- end team member -->
-            
+<section id="team" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 justify-content-center">
+        <!-- section title -->
+        <div class="title text-center wow fadeInUp" data-wow-duration="500ms">
+          <h2> Our <span class="color">
+               Team </span></h2>
+          <div class="border-meghna"></div>
         </div>
+      </div>
+      <!-- /section title -->
+
+      
+      <!-- team member -->
+      <div class="col-lg-3 col-md-6 col-12 wow fadeInDown" data-wow-duration="500ms">
+        <div class="team-member">
+          <div class="member-photo">
+            <!-- member photo -->
+            <img class="img-fluid lozad" data-src="/images/team/jay.jpg" onerror="this.onerror=null;this.src='\/images\/team\/jay.jpg'" alt="Jay Jie">
+
+            <!-- member social profile -->
+            <div class="mask">
+              <ul class="list-inline">
+                
+                <li class="list-inline-item"><a href="https://twitter.com/jim380"><i class="ti-twitter-alt"></i></a></li>
+                
+                <li class="list-inline-item"><a href="https://www.linkedin.com/in/jyz1992/"><i class="ti-linkedin"></i></a></li>
+                
+                <li class="list-inline-item"><a href="https://github.com/jim380"><i class="ti-github"></i></a></li>
+                
+              </ul>
+            </div>
+          </div>
+
+          <!-- member name & designation -->
+          <div class="member-meta">
+            <h4>Jay Jie</h4>
+            <span>Founder</span>
+            <p>Jay fell into the blockchain rabbit hole in 2016 and hasn&rsquo;t been able to get out. He loves his pitbull and enjoys weight training.</p>
+          </div>
+        </div>
+      </div>
+      <!-- end team member -->
+      
+      <!-- team member -->
+      <div class="col-lg-3 col-md-6 col-12 wow fadeInDown" data-wow-duration="500ms">
+        <div class="team-member">
+          <div class="member-photo">
+            <!-- member photo -->
+            <img class="img-fluid lozad" data-src="/images/team/ken.jpg" onerror="this.onerror=null;this.src='\/images\/team\/ken.jpg'" alt="Ken Trueba">
+
+            <!-- member social profile -->
+            <div class="mask">
+              <ul class="list-inline">
+                
+                <li class="list-inline-item"><a href="https://twitter.com/Kennethstweets"><i class="ti-twitter-alt"></i></a></li>
+                
+                <li class="list-inline-item"><a href="https://twitter.com/Kennethstweets"><i class="ti-linkedin"></i></a></li>
+                
+              </ul>
+            </div>
+          </div>
+
+          <!-- member name & designation -->
+          <div class="member-meta">
+            <h4>Ken Trueba</h4>
+            <span>COO</span>
+            <p>Coming from sales management and finance Ken fulfills the missing element of the team. He enjoys cooking and hiking with his dogs.</p>
+          </div>
+        </div>
+      </div>
+      <!-- end team member -->
+      
+      <!-- team member -->
+      <div class="col-lg-3 col-md-6 col-12 wow fadeInDown" data-wow-duration="500ms">
+        <div class="team-member">
+          <div class="member-photo">
+            <!-- member photo -->
+            <img class="img-fluid lozad" data-src="/images/team/art.jpeg" onerror="this.onerror=null;this.src='\/images\/team\/art.jpeg'" alt="Artem Akatev">
+
+            <!-- member social profile -->
+            <div class="mask">
+              <ul class="list-inline">
+                
+                <li class="list-inline-item"><a href="https://twitter.com/aakatev"><i class="ti-twitter-alt"></i></a></li>
+                
+                <li class="list-inline-item"><a href="https://www.linkedin.com/in/artem-akatev-b68195144/"><i class="ti-linkedin"></i></a></li>
+                
+                <li class="list-inline-item"><a href="https://github.com/aakatev"><i class="ti-github"></i></a></li>
+                
+              </ul>
+            </div>
+          </div>
+
+          <!-- member name & designation -->
+          <div class="member-meta">
+            <h4>Artem Akatev</h4>
+            <span>Lead Developer</span>
+            <p>Artem juggles web development, blockchain, and cryptography. He enjoys working on cars, and playing basketball.</p>
+          </div>
+        </div>
+      </div>
+      <!-- end team member -->
+      
+      <!-- team member -->
+      <div class="col-lg-3 col-md-6 col-12 wow fadeInDown" data-wow-duration="500ms">
+        <div class="team-member">
+          <div class="member-photo">
+            <!-- member photo -->
+            <img class="img-fluid lozad" data-src="/images/team/jason.png" onerror="this.onerror=null;this.src='\/images\/team\/jason.png'" alt="Jason Maehr">
+
+            <!-- member social profile -->
+            <div class="mask">
+              <ul class="list-inline">
+                
+                <li class="list-inline-item"><a href="https://twitter.com/dabitfather2"><i class="ti-twitter-alt"></i></a></li>
+                
+                <li class="list-inline-item"><a href="https://www.linkedin.com/in/jasonmaehr/"><i class="ti-linkedin"></i></a></li>
+                
+              </ul>
+            </div>
+          </div>
+
+          <!-- member name & designation -->
+          <div class="member-meta">
+            <h4>Jason Maehr</h4>
+            <span>Advisor</span>
+            <p>Wharton School of Business graduate, ex-Wall Streeter, Jason looks out for the team with his experience. And kindness.</p>
+          </div>
+        </div>
+      </div>
+      <!-- end team member -->
+      
     </div>
+  </div>
 </section>
 <!-- /team -->
 
 
-    
-
-    
-
-    
 
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- Start Contact Us -->
-<section id="contact-us" class="contact-us section-bg">
-    <div class="container pb-5">
-        <div class="row">
-            <div class="col-lg-12">
-                <!-- section title -->
-                <div class="title text-center wow fadeIn" data-wow-duration="500ms">
-                    <h2> Contact  <span
-                            class="color"> Us </span></h2>
-                    <div class="border-meghna"></div>
-                </div>
-            </div>
-            <!-- /section title -->
+<section id="contact" class="contact-us section-bg">
+	<div class="container pb-5">
+		<div class="row">
+			<div class="col-lg-12">
+				<!-- section title -->
+				<div class="title text-center wow fadeIn" data-wow-duration="500ms">
+					<h2> Contact <span class="color">
+						 Us </span></h2>
+					<div class="border-meghna"></div>
+				</div>
+			</div>
+			<!-- /section title -->
 
-            <!-- Contact Details -->
-            <div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
-                <h3>Contact Details</h3> 
-                 <p> Have questions? Get in touch. </p> 
-                <div class="contact-details">
-                    
-                    <div class="con-info clearfix">
-                        <i class="tf-map-pin"></i>
-                        <span>Mountain View, CA, United States</span>
-                    </div>
-                    
-                    <div class="con-info clearfix">
-                        <i class="tf-ion-ios-telephone-outline"></i>
-                        <span>Phone: &#43;1 (541) 908-4148</span>
-                    </div>
-                    
-                    <div class="con-info clearfix">
-                        <i class="tf-ion-ios-email-outline"></i>
-                        <span>Email: admin@cyphercore.io</span>
-                    </div>
-                    
-                </div>
-            </div>
+			<!-- Contact Details -->
+			<div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
+				<h3>Contact Details</h3>
+				<p> Have questions? Get in touch. </p>
+				<div class="contact-details">
+					
+					<div class="con-info clearfix">
+						<i class="ti-location-pin"></i>
+						<span>Mountain View, CA, United States</span>
+					</div>
+					
+					<div class="con-info clearfix">
+						<i class="ti-mobile"></i>
+						<span>Phone: &#43;1 (541) 908-4148</span>
+					</div>
+					
+					<div class="con-info clearfix">
+						<i class="ti-email"></i>
+						<span>Email: admin@cyphercore.io</span>
+					</div>
+					
+				</div>
+			</div>
 
-            <!-- Contact Form -->
-            <div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                <form id="contact-form" class="form-meghna" method="post" action="sendmail.php" role="form">
-
-                    <input name="e-mail" type="text" id="e-mail" autocomplete="off">
-                    <div class="form-group">
-                        <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
-                    </div>
-                    <div class="form-group">
-                        <textarea rows="6" placeholder="Message" class="form-control" name="message"
-                            id="message"></textarea>
-                    </div>
-                    <div id="mail-success" class="success">
-                        Thank you. The Mailman is on His Way :)
-                    </div>
-                    <div id="mail-fail" class="error">
-                        Sorry, don't know what happened. Try later :(
-                    </div>
-                    <div id="cf-submit">
-                        <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-
-    
+			<!-- Contact Form -->
+			<div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+				<form id="contact-form" class="form-meghna" method="post" action="#" role="form">
+					<input name="e-mail" type="text" id="e-mail" autocomplete="off">
+					<div class="form-group">
+						<input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+					</div>
+					<div class="form-group">
+						<input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+					</div>
+					<div class="form-group">
+						<input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+					</div>
+					<div class="form-group">
+						<textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
+					</div>
+					<div id="cf-submit">
+						<button type="submit" id="contact-submit" class="btn btn-transparent btn-block" value="Submit">Submit</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
 </section>
 <!-- /contact -->
 
 
 
-        </div><!-- end Contact Area -->
-<footer id="footer" class="bg-one">
+
+
+
+  </div><!-- end Contact Area -->
+<footer id="footer" class="section-bg">
 	<div class="container">
 		<div class="row wow fadeInUp" data-wow-duration="500ms">
 			<div class="col-xl-12">
@@ -731,17 +867,17 @@
 				<div class="social-icon">
 					<ul class="list-inline">
 						
-						<li class="list-inline-item"><a href="https://twitter.com/cypher_core"><i class="tf-ion-social-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://twitter.com/cypher_core"><i class="ti-twitter-alt"></i></a></li>
 						
-						<li class="list-inline-item"><a href="https://www.youtube.com/channel/UC3TX-EeAeg7LyEzf6isIC8g"><i class="tf-ion-social-youtube"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.youtube.com/channel/UC3TX-EeAeg7LyEzf6isIC8g"><i class="ti-youtube"></i></a></li>
 						
-						<li class="list-inline-item"><a href="https://www.linkedin.com/company/cypher-core/"><i class="tf-ion-social-linkedin"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.linkedin.com/company/cypher-core/"><i class="ti-linkedin"></i></a></li>
 						
-						<li class="list-inline-item"><a href="https://www.instagram.com/cypher_core/"><i class="tf-ion-social-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.instagram.com/cypher_core/"><i class="ti-instagram"></i></a></li>
 						
-						<li class="list-inline-item"><a href="https://github.com/cyphercore-dev"><i class="tf-ion-social-github"></i></a></li>
+						<li class="list-inline-item"><a href="https://github.com/cyphercore-dev"><i class="ti-github"></i></a></li>
 						
-						<li class="list-inline-item"><a href="https://medium.com/cypher-core"><i class="tf-ion-ios-book"></i></a></li>
+						<li class="list-inline-item"><a href="https://medium.com/cypher-core"><i class="ti-book"></i></a></li>
 						
 					</ul>
 				</div>
@@ -749,12 +885,10 @@
 				<!-- copyright -->
 				<div class="copyright text-center">
 					<a href="/">
-						<img src="/images/logo_cc.png" alt="Meghna" />
+						<img src="/images/logo_cc.png" alt="Cypher Core" />
 					</a>
 					<br>
-					<p>Design And Developed by <a href="http://cyphercore.io">  Cypher Core LLC.  </a>. Copyright &copy; <script>
-							document.write(new Date().getFullYear())
-						</script>. All Rights Reserved.</p>
+					<p>copyright &copy; 2019 <a href="https://gethugothemes.com">gethugothemes</a> all right reserved</p>
 				</div>
 			</div>
 		</div>
@@ -762,40 +896,33 @@
 </footer>
 <!-- /footer -->
 
-<!-- Essential Scripts -->
+<!-- Google Map API -->
 
-		<!-- Main jQuery -->
-		<script type="text/javascript" src="/plugins/jquery/dist/jquery.min.js"></script>
-		<!-- Bootstrap 4.3 + Popper -->
-		<script type="text/javascript" src="/plugins/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-		<!-- Slick Carousel -->
-		<script type="text/javascript" src="/plugins/slick-carousel/slick/slick.min.js"></script>
-		<!-- Portfolio Filtering -->
-		<script type="text/javascript" src="/plugins/filterzr/jquery.filterizr.min.js"></script>
-		<!-- Magnific popup -->
-		<script type="text/javascript" src="/plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
-		<!-- Google Map API -->
-		<script type="text/javascript"  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&amp;libraries=places"></script>
-		<!-- Number Counter Script -->
-		<script type="text/javascript" src="/plugins/count-to/jquery.countTo.js"></script>
-		<!-- wow.min Script -->
-		<script type="text/javascript" src="/plugins/wow/dist/wow.min.js"></script>
-		<!-- Scroll behavior polyfill -->
-		
-		<script src="/js/scroll-behavior-polyfill.min.js"></script>
-		<!-- Sweet Alert -->
-		<script type="text/javascript" src="/plugins/sweet-alert/sweetalert.min.js"></script>
-		<!-- Custom js -->
-		
-		<script src="/js/script.min.js"></script>
-		<!-- google analitycs -->
-		<script>
-				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-				ga('create', 'Your ID', 'auto');
-				ga('send', 'pageview');
-		</script>
+
+<!-- JS Plugins -->
+
+<script src="/plugins/jquery/jquery.min.js"></script>
+
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/plugins/slick/slick.min.js"></script>
+
+<script src="/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="/plugins/wow/wow.min.js"></script>
+
+<script src="/plugins/lazy-load/lozad.min.js"></script>
+
+<script src="/plugins/google-map/map.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="/js/script.min.js"></script>
+
+<!-- google analitycs -->
 </body>
+
 </html>
